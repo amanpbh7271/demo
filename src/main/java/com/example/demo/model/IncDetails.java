@@ -3,6 +3,8 @@ package com.example.demo.model;
 import com.couchbase.client.java.repository.annotation.Id;
 import lombok.*;
 
+import java.util.List;
+
 
 @Builder
 @Data
@@ -23,5 +25,7 @@ public class IncDetails {
     String priority;
     String date;
     String time;
-
+    List<Preupdate> preUpdates;
 }
+
+

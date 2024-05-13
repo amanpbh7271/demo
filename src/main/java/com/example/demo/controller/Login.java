@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 
-@CrossOrigin(origins = "http://localhost:3003")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api")
 public class Login {
@@ -70,7 +70,7 @@ public class Login {
     }
     @PostMapping("/saveInc")
     public  String saveInc(@RequestBody IncDetails incDetails){
-      System.out.println("inc Details"+incDetails);
+       System.out.println("inc Details"+incDetails);
        return couchbaseService.insertIncDetails(incDetails);
 
     }
@@ -81,4 +81,27 @@ public class Login {
        return couchbaseService.getIncDetailsForManager(manager);
 
     }
+    @GetMapping("/incDetails/{incNumber}")
+    public String insDetailsWithIncId(@PathVariable String incNumber){
+        System.out.println("ind Id is"+incNumber);
+        return couchbaseService.getInsDetailsWithIncId(incNumber) ;
+    }
+    @GetMapping("/managerForAccount/{account}")
+    public String mangerForAccount(@PathVariable String account){
+        System.out.println("account name in managerForAccount"+account);
+        return couchbaseService.getManagerForAccount(account);
+    }
+
+    @GetMapping("/listOfIncFromAccountAndPriority/{account}/{priority}")
+    public String getListOfIncFromAccountAndPriority(@PathVariable String account, @PathVariable String priority){
+        System.out.println("Account: " + account + ", Priority: " + priority);
+        return couchbaseService.getListOfIncFromAccount(account, priority);
+    }
+
+    @GetMapping("/accountForUser/{user}")
+    public String getAccountForUser(@PathVariable String user){
+        System.out.println("user "+user);
+        return couchbaseService.getAccountForUser(user);
+    }
+
 }

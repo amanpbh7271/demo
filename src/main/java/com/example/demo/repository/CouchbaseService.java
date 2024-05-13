@@ -4,11 +4,13 @@ import com.couchbase.client.java.Bucket;
 import com.couchbase.client.java.Cluster;
 import com.couchbase.client.java.CouchbaseCluster;
 import com.couchbase.client.java.document.JsonDocument;
+import com.couchbase.client.java.document.json.JsonArray;
 import com.couchbase.client.java.document.json.JsonObject;
 import com.couchbase.client.java.query.N1qlQuery;
 import com.couchbase.client.java.query.N1qlQueryResult;
 import com.couchbase.client.java.query.N1qlQueryRow;
 import com.example.demo.model.IncDetails;
+import com.example.demo.model.Preupdate;
 import com.example.demo.model.Users;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -16,6 +18,8 @@ import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -33,8 +37,12 @@ public class CouchbaseService {
 
     private static final String NOTIFICATIONS_BUCKET = "notifications";
     private static final String USERS_BUCKET = "users"; // Add the name of the users bucket
+
+    private static final String NotificationManager_BUCKET ="NotificationManager";
     Bucket usersBucket;
     Bucket notificationsBucket;
+
+    Bucket notificationManagerBucket;
 
     @PostConstruct
     private void postConstructor() {
@@ -43,6 +51,7 @@ public class CouchbaseService {
         usersBucket = cluster.openBucket(USERS_BUCKET);
         notificationsBucket = cluster.openBucket(NOTIFICATIONS_BUCKET);
         usersBucket = cluster.openBucket(USERS_BUCKET); // Open the users bucket
+        notificationManagerBucket = cluster.openBucket(NotificationManager_BUCKET);
     }
 
     public JsonDocument getDocumentUser(String user){
@@ -110,14 +119,28 @@ public class CouchbaseService {
          inc.put("date",incDetails.getDate());
          inc.put("time",incDetails.getTime());
 
+        if (incDetails.getPreUpdates() != null) {
+            System.out.println("in a preupdates"+ incDetails.getPreUpdates());
+            JsonArray  preUpdates = JsonArray.create();
+            for (Preupdate preUpdate : incDetails.getPreUpdates()) {
+
+                JsonObject preUpdateJson = JsonObject.create()
+                        .put("timestamp", preUpdate.getTimestamp())
+                        .put("message", preUpdate.getMessage());
+                preUpdates.add(preUpdateJson);
+            }
+            inc.put("preUpdates", preUpdates);
+        }
+        System.out.println(inc);
+
          JsonDocument res =notificationsBucket.upsert(JsonDocument.create(incDetails.getIncNumber(), inc));
 
-         System.out.println("submited");
+         System.out.println("submitted");
         return res.toString();
     }
     public  String getIncDetailsForManager(String manager){
 
-        String queryString = "SELECT * FROM `notifications` WHERE  manager = '"+manager+"'" ;
+        String queryString = "SELECT * FROM `notifications` WHERE  manager = '"+manager+"' and status='Open' ORDER BY date DESC, time DESC" ;
        System.out.println("query is "+ queryString);
         N1qlQueryResult result = notificationsBucket.query(N1qlQuery.simple(queryString));
         List<N1qlQueryRow> list  =result.allRows();
@@ -127,5 +150,50 @@ public class CouchbaseService {
         return res;
     }
 
+    public String getInsDetailsWithIncId(String incNumber){
 
+
+        String queryString = "SELECT * FROM `notifications` WHERE incNumber = '" + incNumber + "' ORDER BY date DESC, time DESC";
+        System.out.println("Query: " + queryString);
+        N1qlQueryResult result = notificationsBucket.query(N1qlQuery.simple(queryString));
+
+
+        List<N1qlQueryRow> list = result.allRows();
+        String res = list.toString();
+        System.out.println("Result of query: " + res);
+        return res;
+
+
+    }
+    public String getManagerForAccount(String account){
+        String queryString = "SELECT * FROM `NotificationManager` WHERE name = '" + account + "'";
+        System.out.println("Query: " + queryString);
+        N1qlQueryResult result = notificationManagerBucket.query(N1qlQuery.simple(queryString));
+        List<N1qlQueryRow> list = result.allRows();
+        String res = list.toString();
+        System.out.println("Result of query: " + res);
+        return res;
+    }
+
+
+    public String getListOfIncFromAccount(String account, String priority) {
+        String queryString = "SELECT incNumber FROM `notifications` WHERE account = '" + account + "' AND priority = '" + priority + "' AND status = 'Open'";
+        System.out.println("Query: " + queryString);
+        N1qlQueryResult result = notificationsBucket.query(N1qlQuery.simple(queryString));
+        List<N1qlQueryRow> list = result.allRows();
+        String res = list.toString();
+        System.out.println("Result of query: " + res);
+        return res;
+    }
+
+    public String getAccountForUser(String user){
+         String queryString ="SELECT account from users where username= '"+ user +"'";
+        System.out.println("Query: " + queryString);
+        N1qlQueryResult result = usersBucket.query(N1qlQuery.simple(queryString));
+        List<N1qlQueryRow> list = result.allRows();
+        String res = list.toString();
+        System.out.println("Result of query: " + res);
+         return res;
+
+    }
 }
