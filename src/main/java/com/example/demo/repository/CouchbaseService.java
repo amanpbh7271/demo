@@ -84,6 +84,44 @@ public class CouchbaseService {
         // Return the inserted document as a string
         return inserted.toString();
     }
+
+    public boolean authenticateUser(String username, String password) {
+        // Retrieve the user document from the database
+        JsonDocument document = usersBucket.get(username);
+
+        // Check if the document exists
+        if (document != null) {
+            // Get the password stored in the document
+            String storedPassword = document.content().getString("password");
+            // Compare the stored password with the provided password
+            return password.equals(storedPassword);
+        } else {
+            // If the document does not exist, return false
+            return false;
+        }
+    }
+
+    public Users getUserByUsername(String username) {
+        // Retrieve the user document from the database
+        JsonDocument document = usersBucket.get(username);
+
+        // Check if the document exists
+        if (document != null) {
+            // Map the document content to a Users object
+            JsonObject content = document.content();
+            Users user = new Users();
+            user.setId(content.getString("username"));
+            user.setUsername(content.getString("username"));
+            user.setPassword(content.getString("password"));
+            user.setMobNumber(content.getString("mobile"));
+            // You can map other fields as needed
+            return user;
+        } else {
+            // If the document does not exist, return null
+            return null;
+        }
+    }
+
     public String getDocumentWithId(String id) throws JsonProcessingException {
         String queryString = "SELECT * FROM `users` WHERE name = '"+id+"'" ;
         N1qlQueryResult result = usersBucket.query(N1qlQuery.simple(queryString));

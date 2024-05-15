@@ -4,6 +4,7 @@ import com.couchbase.client.java.repository.annotation.Id;
 import lombok.*;
 
 
+@NoArgsConstructor
 @Builder
 @Data
 @Getter
@@ -16,4 +17,5 @@ public class Users {
     private String username;
     private String password;
     private String mobNumber;
+
 }
