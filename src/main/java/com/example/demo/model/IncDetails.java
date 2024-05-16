@@ -1,8 +1,9 @@
 package com.example.demo.model;
 
-import com.couchbase.client.java.repository.annotation.Id;
+
 import lombok.*;
 
+import javax.persistence.Id;
 import java.util.List;
 
 
@@ -27,5 +28,4 @@ public class IncDetails {
     String time;
     List<Preupdate> preUpdates;
 }
-
 

@@ -1,21 +1,26 @@
 package com.example.demo.model;
 
-import com.couchbase.client.java.repository.annotation.Id;
+
 import lombok.*;
 
+import javax.persistence.*;
+import java.util.List;
 
+@Entity
 @NoArgsConstructor
-@Builder
-@Data
-@Getter
-@Setter
 @AllArgsConstructor
+@Builder
 public class Users {
 
     @Id
     private String id;
-    private String username;
-    private String password;
-    private String mobNumber;
+    @Getter @Setter private String username;
+    @Getter @Setter private String password;
+    @Getter @Setter private String mobNumber;
 
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "user_id")
+    @Getter @Setter private List<Account> account;
+
+    // If needed, you can add custom methods here
 }
