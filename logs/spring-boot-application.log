@@ -1,0 +1,38 @@
+2024-05-23 20:08:49 - Starting LogtestApplication using Java 1.8.0_202 on DVCG6115426 with PID 20408 (C:\aman\Microservices\logtest\target\classes started by amasingh in C:\aman\Microservices\logtest)
+2024-05-23 20:08:49 - Running with Spring Boot v2.5.6, Spring v5.3.12
+2024-05-23 20:08:49 - No active profile set, falling back to default profiles: default
+2024-05-23 20:08:50 - Tomcat initialized with port(s): 8080 (http)
+2024-05-23 20:08:50 - Starting service [Tomcat]
+2024-05-23 20:08:50 - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2024-05-23 20:08:50 - Initializing Spring embedded WebApplicationContext
+2024-05-23 20:08:50 - Root WebApplicationContext: initialization completed in 1179 ms
+2024-05-23 20:08:50 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-23 20:08:50 - Started LogtestApplication in 2.082 seconds (JVM running for 2.439)
+2024-05-23 20:08:50 - Application started successfully.
+2024-05-23 20:09:02 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-23 20:09:02 - Initializing Servlet 'dispatcherServlet'
+2024-05-23 20:09:02 - Completed initialization in 2 ms
+2024-05-23 20:09:02 - Debug log message
+2024-05-23 20:09:02 - Info log message
+2024-05-23 20:09:02 - Warning log message
+2024-05-23 20:09:02 - Error log message
+2024-05-23 20:14:08 - Starting LogtestApplicationTests using Java 1.8.0_202 on DVCG6115426 with PID 47528 (started by amasingh in C:\aman\Microservices\logtest)
+2024-05-23 20:14:08 - Running with Spring Boot v2.5.6, Spring v5.3.12
+2024-05-23 20:14:08 - No active profile set, falling back to default profiles: default
+2024-05-23 20:14:10 - Started LogtestApplicationTests in 2.751 seconds (JVM running for 3.775)
+2024-05-23 20:14:30 - Starting LogtestApplicationTests using Java 1.8.0_202 on DVCG6115426 with PID 39100 (started by amasingh in C:\aman\Microservices\logtest)
+2024-05-23 20:14:30 - Running with Spring Boot v2.5.6, Spring v5.3.12
+2024-05-23 20:14:30 - No active profile set, falling back to default profiles: default
+2024-05-23 20:14:32 - Started LogtestApplicationTests in 2.736 seconds (JVM running for 3.515)
+2024-05-23 20:15:21 - Starting LogtestApplicationTests using Java 1.8.0_202 on DVCG6115426 with PID 32752 (started by amasingh in C:\aman\Microservices\logtest)
+2024-05-23 20:15:21 - Running with Spring Boot v2.5.6, Spring v5.3.12
+2024-05-23 20:15:21 - No active profile set, falling back to default profiles: default
+2024-05-23 20:15:23 - Started LogtestApplicationTests in 1.853 seconds (JVM running for 2.634)
+2024-05-23 20:18:46 - Starting LogtestApplicationTests using Java 1.8.0_202 on DVCG6115426 with PID 47860 (started by amasingh in C:\aman\Microservices\logtest)
+2024-05-23 20:18:46 - Running with Spring Boot v2.5.6, Spring v5.3.12
+2024-05-23 20:18:46 - No active profile set, falling back to default profiles: default
+2024-05-23 20:18:48 - Started LogtestApplicationTests in 2.076 seconds (JVM running for 2.86)
+2024-05-23 20:19:10 - Starting LogtestApplicationTests using Java 1.8.0_202 on DVCG6115426 with PID 39744 (started by amasingh in C:\aman\Microservices\logtest)
+2024-05-23 20:19:10 - Running with Spring Boot v2.5.6, Spring v5.3.12
+2024-05-23 20:19:10 - No active profile set, falling back to default profiles: default
+2024-05-23 20:19:12 - Started LogtestApplicationTests in 3.156 seconds (JVM running for 4.394)

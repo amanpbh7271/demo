@@ -1,0 +1,802 @@
+2024-08-20 -  INFO - Starting LogtestApplication using Java 1.8.0_202 on DVCG6115426 with PID 25480 (C:\aman\Microservices\for check one\logtest\target\classes started by amasingh in C:\aman\Microservices\for check one\logtest)
+2024-08-20 - DEBUG - Running with Spring Boot v2.6.4, Spring v5.3.16
+2024-08-20 -  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-08-20 -  INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-20 -  INFO - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-08-20 -  INFO - Tomcat initialized with port(s): 8080 (http)
+2024-08-20 -  INFO - Starting service [Tomcat]
+2024-08-20 -  INFO - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2024-08-20 -  INFO - Initializing Spring embedded WebApplicationContext
+2024-08-20 -  INFO - Root WebApplicationContext: initialization completed in 2568 ms
+2024-08-20 -  INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-20 -  INFO - HHH000412: Hibernate ORM core version 5.6.5.Final
+2024-08-20 -  INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-20 -  INFO - HikariPool-1 - Starting...
+2024-08-20 -  INFO - HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2024-08-20 -  INFO - HikariPool-1 - Start completed.
+2024-08-20 -  INFO - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2024-08-20 -  WARN - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2024-08-20 -  WARN - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2024-08-20 -  INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-20 -  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-20 -  INFO - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 -  INFO - Started LogtestApplication in 10.385 seconds (JVM running for 10.98)
+2024-08-20 -  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 -  INFO - Initializing Servlet 'dispatcherServlet'
+2024-08-20 -  INFO - Completed initialization in 1 ms
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  INFO - HikariPool-1 - Shutdown initiated...
+2024-08-20 -  INFO - HikariPool-1 - Shutdown completed.
+2024-08-20 -  INFO - Starting LogtestApplication using Java 1.8.0_202 on DVCG6115426 with PID 8952 (C:\aman\Microservices\for check one\logtest\target\classes started by amasingh in C:\aman\Microservices\for check one\logtest)
+2024-08-20 - DEBUG - Running with Spring Boot v2.6.4, Spring v5.3.16
+2024-08-20 -  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-08-20 -  INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-20 -  INFO - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-08-20 -  INFO - Tomcat initialized with port(s): 8080 (http)
+2024-08-20 -  INFO - Starting service [Tomcat]
+2024-08-20 -  INFO - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2024-08-20 -  INFO - Initializing Spring embedded WebApplicationContext
+2024-08-20 -  INFO - Root WebApplicationContext: initialization completed in 1884 ms
+2024-08-20 -  INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-20 -  INFO - HHH000412: Hibernate ORM core version 5.6.5.Final
+2024-08-20 -  INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-20 -  INFO - HikariPool-1 - Starting...
+2024-08-20 -  INFO - HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2024-08-20 -  INFO - HikariPool-1 - Start completed.
+2024-08-20 -  INFO - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2024-08-20 -  WARN - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2024-08-20 -  WARN - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2024-08-20 -  INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-20 -  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-20 -  INFO - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 -  INFO - Started LogtestApplication in 8.302 seconds (JVM running for 8.755)
+2024-08-20 -  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 -  INFO - Initializing Servlet 'dispatcherServlet'
+2024-08-20 -  INFO - Completed initialization in 1 ms
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  INFO - HikariPool-1 - Shutdown initiated...
+2024-08-20 -  INFO - HikariPool-1 - Shutdown completed.
+2024-08-20 -  INFO - Starting LogtestApplication using Java 1.8.0_202 on DVCG6115426 with PID 20396 (C:\aman\Microservices\for check one\logtest\target\classes started by amasingh in C:\aman\Microservices\for check one\logtest)
+2024-08-20 - DEBUG - Running with Spring Boot v2.6.4, Spring v5.3.16
+2024-08-20 -  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-08-20 -  INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-20 -  INFO - Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2024-08-20 -  INFO - Tomcat initialized with port(s): 8080 (http)
+2024-08-20 -  INFO - Starting service [Tomcat]
+2024-08-20 -  INFO - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2024-08-20 -  INFO - Initializing Spring embedded WebApplicationContext
+2024-08-20 -  INFO - Root WebApplicationContext: initialization completed in 2499 ms
+2024-08-20 -  INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-20 -  INFO - HHH000412: Hibernate ORM core version 5.6.5.Final
+2024-08-20 -  INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-20 -  INFO - HikariPool-1 - Starting...
+2024-08-20 -  INFO - HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2024-08-20 -  INFO - HikariPool-1 - Start completed.
+2024-08-20 -  INFO - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2024-08-20 -  WARN - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2024-08-20 -  WARN - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2024-08-20 -  INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-20 -  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-20 -  INFO - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 -  INFO - Started LogtestApplication in 10.684 seconds (JVM running for 11.473)
+2024-08-20 -  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 -  INFO - Initializing Servlet 'dispatcherServlet'
+2024-08-20 -  INFO - Completed initialization in 2 ms
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  INFO - HikariPool-1 - Shutdown initiated...
+2024-08-20 -  INFO - HikariPool-1 - Shutdown completed.
+2024-08-20 -  INFO - Starting LogtestApplication using Java 1.8.0_202 on DVCG6115426 with PID 26228 (C:\aman\Microservices\for check one\logtest\target\classes started by amasingh in C:\aman\Microservices\for check one\logtest)
+2024-08-20 - DEBUG - Running with Spring Boot v2.6.4, Spring v5.3.16
+2024-08-20 -  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-08-20 -  INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-20 -  INFO - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-08-20 -  INFO - Tomcat initialized with port(s): 8080 (http)
+2024-08-20 -  INFO - Starting service [Tomcat]
+2024-08-20 -  INFO - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2024-08-20 -  INFO - Initializing Spring embedded WebApplicationContext
+2024-08-20 -  INFO - Root WebApplicationContext: initialization completed in 1887 ms
+2024-08-20 -  INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-20 -  INFO - HHH000412: Hibernate ORM core version 5.6.5.Final
+2024-08-20 -  INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-20 -  INFO - HikariPool-1 - Starting...
+2024-08-20 -  INFO - HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2024-08-20 -  INFO - HikariPool-1 - Start completed.
+2024-08-20 -  INFO - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2024-08-20 -  WARN - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2024-08-20 -  WARN - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2024-08-20 -  INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-20 -  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-20 -  INFO - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 -  INFO - Started LogtestApplication in 8.638 seconds (JVM running for 9.262)
+2024-08-20 -  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 -  INFO - Initializing Servlet 'dispatcherServlet'
+2024-08-20 -  INFO - Completed initialization in 10 ms
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  INFO - HikariPool-1 - Shutdown initiated...
+2024-08-20 -  INFO - HikariPool-1 - Shutdown completed.
+2024-08-20 -  INFO - Starting LogtestApplication using Java 1.8.0_202 on DVCG6115426 with PID 23052 (C:\aman\Microservices\for check one\logtest\target\classes started by amasingh in C:\aman\Microservices\for check one\logtest)
+2024-08-20 - DEBUG - Running with Spring Boot v2.6.4, Spring v5.3.16
+2024-08-20 -  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-08-20 -  INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-20 -  INFO - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-08-20 -  INFO - Tomcat initialized with port(s): 8080 (http)
+2024-08-20 -  INFO - Starting service [Tomcat]
+2024-08-20 -  INFO - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2024-08-20 -  INFO - Initializing Spring embedded WebApplicationContext
+2024-08-20 -  INFO - Root WebApplicationContext: initialization completed in 2629 ms
+2024-08-20 -  INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-20 -  INFO - HHH000412: Hibernate ORM core version 5.6.5.Final
+2024-08-20 -  INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-20 -  INFO - HikariPool-1 - Starting...
+2024-08-20 -  INFO - HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2024-08-20 -  INFO - HikariPool-1 - Start completed.
+2024-08-20 -  INFO - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2024-08-20 -  WARN - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2024-08-20 -  WARN - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2024-08-20 -  INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-20 -  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-20 -  INFO - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 -  INFO - Started LogtestApplication in 8.589 seconds (JVM running for 9.077)
+2024-08-20 -  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 -  INFO - Initializing Servlet 'dispatcherServlet'
+2024-08-20 -  INFO - Completed initialization in 1 ms
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m56s106ms593µs999ns).
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  INFO - HikariPool-1 - Shutdown initiated...
+2024-08-20 -  INFO - HikariPool-1 - Shutdown completed.
+2024-08-20 -  INFO - Starting LogtestApplication using Java 1.8.0_202 on DVCG6115426 with PID 26700 (C:\aman\Microservices\for check one\logtest\target\classes started by amasingh in C:\aman\Microservices\for check one\logtest)
+2024-08-20 - DEBUG - Running with Spring Boot v2.6.4, Spring v5.3.16
+2024-08-20 -  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-08-20 -  INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-20 -  INFO - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-08-20 -  INFO - Tomcat initialized with port(s): 8080 (http)
+2024-08-20 -  INFO - Starting service [Tomcat]
+2024-08-20 -  INFO - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2024-08-20 -  INFO - Initializing Spring embedded WebApplicationContext
+2024-08-20 -  INFO - Root WebApplicationContext: initialization completed in 1333 ms
+2024-08-20 -  INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-20 -  INFO - HHH000412: Hibernate ORM core version 5.6.5.Final
+2024-08-20 -  INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-20 -  INFO - HikariPool-1 - Starting...
+2024-08-20 -  INFO - HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2024-08-20 -  INFO - HikariPool-1 - Start completed.
+2024-08-20 -  INFO - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2024-08-20 -  WARN - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2024-08-20 -  WARN - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2024-08-20 -  INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-20 -  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-20 -  INFO - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 -  INFO - Started LogtestApplication in 4.885 seconds (JVM running for 5.301)
+2024-08-20 -  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 -  INFO - Initializing Servlet 'dispatcherServlet'
+2024-08-20 -  INFO - Completed initialization in 2 ms
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method IS editing enabled
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method IS editing enabled
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method IS editing enabled
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method IS editing enabled
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getInsDetailsWithIncId method executeQuery called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class getIncidentsForAccounts method executeQuery called
+2024-08-20 -  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  INFO - HikariPool-1 - Shutdown initiated...
+2024-08-20 -  INFO - HikariPool-1 - Shutdown completed.
+2024-08-20 -  INFO - Starting LogtestApplication using Java 1.8.0_202 on DVCG6115426 with PID 32960 (C:\aman\Microservices\for check one\logtest\target\classes started by amasingh in C:\aman\Microservices\for check one\logtest)
+2024-08-20 - DEBUG - Running with Spring Boot v2.6.4, Spring v5.3.16
+2024-08-20 -  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-08-20 -  INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-20 -  INFO - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-08-20 -  INFO - Tomcat initialized with port(s): 8080 (http)
+2024-08-20 -  INFO - Starting service [Tomcat]
+2024-08-20 -  INFO - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2024-08-20 -  INFO - Initializing Spring embedded WebApplicationContext
+2024-08-20 -  INFO - Root WebApplicationContext: initialization completed in 1259 ms
+2024-08-20 -  INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-20 -  INFO - HHH000412: Hibernate ORM core version 5.6.5.Final
+2024-08-20 -  INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-20 -  INFO - HikariPool-1 - Starting...
+2024-08-20 -  INFO - HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2024-08-20 -  INFO - HikariPool-1 - Start completed.
+2024-08-20 -  INFO - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2024-08-20 -  WARN - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2024-08-20 -  WARN - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2024-08-20 -  INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-20 -  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-20 -  INFO - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 -  INFO - Started LogtestApplication in 4.1 seconds (JVM running for 4.476)
+2024-08-20 -  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 -  INFO - Initializing Servlet 'dispatcherServlet'
+2024-08-20 -  INFO - Completed initialization in 0 ms
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 - ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.example.logtest.service.OracleService.insertIncDetails(OracleService.java:372)
+	at com.example.logtest.controller.AllApi.saveInc(AllApi.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method start method
+2024-08-20 -  INFO - Inside OracleService class getConnection method getConnection
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method PreparedStatement called
+2024-08-20 -  INFO - Inside OracleService class insertIncDetails method executeQuery called
+2024-08-20 -  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 -  INFO - HikariPool-1 - Shutdown initiated...
+2024-08-20 -  INFO - HikariPool-1 - Shutdown completed.
