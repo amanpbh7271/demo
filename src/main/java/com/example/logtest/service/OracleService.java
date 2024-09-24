@@ -4,7 +4,6 @@ package com.example.logtest.service;
 
 import com.example.logtest.model.INC_USERS;
 import com.example.logtest.model.IncDetails;
-import com.example.logtest.model.Users;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -18,19 +17,19 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+
 import java.io.IOException;
 import java.net.UnknownHostException;
 import java.sql.*;
 import java.text.SimpleDateFormat;
-import java.time.Duration;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.ZoneId;
 
 @Service
 public class OracleService {
@@ -567,8 +566,12 @@ public class OracleService {
         Connection con = getConnection();
         try {
             // Prepare the SQL query
-            String queryString = "SELECT \"incNumber\", \"account\", \"priority\", \"date\" FROM notifications WHERE \"account\" IN (" +
-                    accounts.stream().map(account -> "'" + account + "'").collect(Collectors.joining(",")) + ") AND \"status\" = 'Open'";
+            String queryString = "SELECT \"incNumber\", \"account\", \"priority\", \"date\" " +
+                    "FROM notifications " +
+                    "WHERE \"account\" IN (" +
+                    accounts.stream().map(account -> "'" + account + "'").collect(Collectors.joining(",")) +
+                    ") AND \"status\" = 'Open' " +
+                    "ORDER BY \"date\" DESC, \"time\" DESC"; // Order by date and time in descending order
             PreparedStatement preparedStatement = con.prepareStatement(queryString);
             logger.info("Inside OracleService class getIncidentsForAccounts method PreparedStatement called");
 
@@ -610,7 +613,6 @@ public class OracleService {
             closeConnection(con);
         }
     }
-
 
 
 
